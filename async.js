@@ -1,20 +1,20 @@
-    // function getUserDetails(userId) {
-    // return new Promise((resolve, reject) => {
-    //     setTimeout(()=>{
-    //         resolve({userRoll : "678"})
-    //     },2000)
-    // });
-    // };
+// function getUserDetails(userId) {
+// return new Promise((resolve, reject) => {
+//     setTimeout(()=>{
+//         resolve({userRoll : "678"})
+//     },2000)
+// });
+// };
 
-    // const myfun = async() =>{
-    //     console.log("123")
-    //     const res = await getUserDetails("123");
-    //     console.log(res);
-    //     console.log("456");
-    // };
-    // myfun();
+// const myfun = async() =>{
+//     console.log("123")
+//     const res = await getUserDetails("123");
+//     console.log(res);
+//     console.log("456");
+// };
+// myfun();
 
-    function fun1() {
+function fun1() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve("Result from fun1");
